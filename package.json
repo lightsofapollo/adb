@@ -1,14 +1,13 @@
 {
-  "name": "marionette-js-logger",
-  "version": "0.0.2",
+  "name": "adb",
+  "version": "0.0.1",
   "author": "James Lal [:lightsofapollo]",
-  "description": "Realtime host -> desktop logging",
+  "description": "wrapper for adb commands",
   "main": "index.js",
   "keywords": [
     "firefox os",
     "gecko",
-    "b2g-desktop",
-    "firefox"
+    "adb"
   ],
   "dependencies" : {
     "debug": "*"
