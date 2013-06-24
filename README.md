@@ -7,6 +7,7 @@ See the (tiny) implementation files for docs in lib/.
 
 - cmd (used to build other commands)
 - devices
+- push (files from host to device)
 
 ## LICENSE
 
