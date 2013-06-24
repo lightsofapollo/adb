@@ -1,0 +1,4 @@
+List of devices attached 
+full_keon	device
+magicfoo device
+
