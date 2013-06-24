@@ -9,6 +9,10 @@
     "gecko",
     "adb"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lightsofapollo/adb"
+  },
   "dependencies" : {
     "debug": "*"
   },
