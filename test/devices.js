@@ -1,7 +1,7 @@
 suite('devices', function() {
   var helper = require('./helper'),
       fs = require('fs'),
-      devices = require('../lib/devices').devices,
+      devices = require('../index').devices,
       assert = require('assert');
 
   suite('multiple', function() {
