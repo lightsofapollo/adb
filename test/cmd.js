@@ -36,10 +36,8 @@ suite('cmd', function() {
     });
 
     assert.ok(execCalledWith, 'calls exec');
-
-    assert.equal(execCalledWith[0], 'adb');
-    assert.deepEqual(execCalledWith[1], ['devices']);
-    execCalledWith[2].apply(
+    assert.deepEqual(execCalledWith[0], 'adb devices');
+    execCalledWith[1].apply(
       this, [expectedErr, expectedStdout, expectedStderr]
     );
   });
