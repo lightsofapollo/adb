@@ -13,8 +13,7 @@ suite('push', function() {
     test('push', function(done) {
       push(device, from, to, function(err) {
         if (err) return callback(err);
-        assert.equal(mock.with[0], 'push');
-        assert.deepEqual(mock.with[1], ['-s ' + device, from, to]);
+        assert.deepEqual(mock.with[0], ['push', '-s ' + device, from, to]);
         done();
       });
     });

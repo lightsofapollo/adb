@@ -16,7 +16,7 @@ suite('devices', function() {
         assert.deepEqual(list, ['full_keon', 'magicfoo']);
         done();
       });
-      assert.equal(mock.with[0], 'devices', 'calls devices');
+      assert.deepEqual(mock.with[0], ['devices'], 'calls devices');
     });
 
   });
@@ -33,7 +33,7 @@ suite('devices', function() {
         assert.deepEqual(list, []);
         done();
       });
-      assert.equal(mock.with[0], 'devices', 'calls devices');
+      assert.deepEqual(mock.with[0], ['devices'], 'calls devices');
     });
 
   });

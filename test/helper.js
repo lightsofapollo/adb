@@ -34,7 +34,7 @@ module.exports = {
         cmd.cmd = realCmd;
         results.called = true;
         results.with = Array.prototype.slice.call(arguments);
-        var cb = arguments[2];
+        var cb = arguments[1];
         process.nextTick(function() {
           cb.apply(this, [err, stdout, stderr]);
         });
