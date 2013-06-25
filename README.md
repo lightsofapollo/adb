@@ -3,6 +3,8 @@
 wrapper for ADB commands.
 See the (tiny) implementation files for docs in lib/.
 
+Note: the package name is "adb-cmd"
+
 ## Commands:
 
 - cmd (used to build other commands)
