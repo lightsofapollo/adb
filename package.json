@@ -1,5 +1,5 @@
 {
-  "name": "adb",
+  "name": "adb-cmd",
   "version": "0.0.1",
   "author": "James Lal [:lightsofapollo]",
   "description": "wrapper for adb commands",
